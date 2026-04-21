@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding = "shift_jis"?>
+<?xml version="1.0" encoding = "utf-8"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="7.00"
 	Name="vorbisacm"
 	ProjectGUID="{665D6AD6-07DC-4690-8007-6E4AED13DAE5}"
-	Keyword="Win32Proj">
+	Keyword="x64Proj">
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="x64"/>
 	</Platforms>
 	<Configurations>
 		<Configuration
-			Name="Debug|Win32"
+			Name="Debug|x64"
 			OutputDirectory="Debug"
 			IntermediateDirectory="Debug"
 			ConfigurationType="2"
@@ -21,7 +21,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="./../,./../libogg/include/,./../libvorbis/include/"
-				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;_HAVE_DUMPEDFORMATDETAILS"
+				PreprocessorDefinitions="x64;_DEBUG;_WINDOWS;_USRDLL;_HAVE_DUMPEDFORMATDETAILS"
 				MinimalRebuild="TRUE"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
@@ -73,7 +73,7 @@ rundll32.exe setupapi,InstallHinfSection DefaultInstall 132 %InstallInf%
 				Name="VCWebDeploymentTool"/>
 		</Configuration>
 		<Configuration
-			Name="Release|Win32"
+			Name="Release|x64"
 			OutputDirectory="Release"
 			IntermediateDirectory="Release"
 			ConfigurationType="2"
@@ -90,7 +90,7 @@ rundll32.exe setupapi,InstallHinfSection DefaultInstall 132 %InstallInf%
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="TRUE"
 				AdditionalIncludeDirectories="./../,./../libogg/include/,./../libvorbis/include/"
-				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;_HAVE_DUMPEDFORMATDETAILS,RELEASEDEBUG"
+				PreprocessorDefinitions="x64;NDEBUG;_WINDOWS;_USRDLL;_HAVE_DUMPEDFORMATDETAILS,RELEASEDEBUG"
 				StringPooling="TRUE"
 				RuntimeLibrary="0"
 				BufferSecurityCheck="FALSE"
@@ -146,7 +146,7 @@ rundll32.exe setupapi,InstallHinfSection DefaultInstall 132 %InstallInf%
 	</Configurations>
 	<Files>
 		<Filter
-			Name="ソース ファイル"
+			Name="繧ｽ繝ｼ繧ｹ 繝輔ぃ繧､繝ｫ"
 			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
 			<File
 				RelativePath="codec.cpp">
@@ -162,7 +162,7 @@ rundll32.exe setupapi,InstallHinfSection DefaultInstall 132 %InstallInf%
 			</File>
 		</Filter>
 		<Filter
-			Name="ヘッダー ファイル"
+			Name="繝倥ャ繝繝ｼ 繝輔ぃ繧､繝ｫ"
 			Filter="h;hpp;hxx;hm;inl;inc">
 			<File
 				RelativePath="codec.h">
@@ -181,7 +181,7 @@ rundll32.exe setupapi,InstallHinfSection DefaultInstall 132 %InstallInf%
 			</File>
 		</Filter>
 		<Filter
-			Name="リソース ファイル"
+			Name="繝ｪ繧ｽ繝ｼ繧ｹ 繝輔ぃ繧､繝ｫ"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
 			<File
 				RelativePath="vorbisacm.rc">
