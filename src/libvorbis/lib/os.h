@@ -130,9 +130,6 @@ typedef ogg_int16_t vorbis_fpu_control;
 
 static __inline int vorbis_ftoi(double f){
 	int i;
-	__asm{
-		fld f
-		fistp i
 	}
 	return i;
 }
